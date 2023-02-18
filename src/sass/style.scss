@@ -1,0 +1,106 @@
+// colors
+$clr-neutral-100: #F5F5F5;
+$clr-neutral-900: #0C2447;
+$clr-primary-400: #e91bc7;
+$clr-red-500: #B31B22;
+$clr-red-400: #FF5B62;
+
+
+
+
+// font-families
+$ff-sans: 'Open Sans', san-serif;
+$ff-roboto: 'Roboto', sans-serif;
+
+// font-sizes
+$fs-900: 3.75rem; //60px
+$fs-800: 3rem; //48px
+$fs-600: 1.5rem; //24px
+$fs-500: 1.3125rem; //21px
+$fs-400: 1.125rem; //18px
+
+// font-weights 
+$fw-400: 400;
+$fw-700: 700;
+$fw-900: 900;
+
+//size/spacing values (Including the border-width)
+$size-8: 0.5rem;
+$size-12: 0.75rem;
+$size-16: 1rem;
+$size-20: 1.25rem;
+$size-32: 2rem;
+$size-36: 2.25rem;
+
+%shadow { box-shadow: .25rem .25rem 1rem rgb(0 0 0 / .15); }
+%text-center { text-align: center; }
+
+
+@mixin interactive-scale($clr, $bg, $scale: 1.05) {
+    scale: 1;
+    transition: scale 350ms ease;
+
+    &:hover,
+    &:focus {
+        scale: $scale;
+        color: $clr;
+        background-color: $bg;
+    }
+}
+
+// Utilities
+.margin-block-xl {
+    margin-block: $size-36;
+}
+
+.text-accent { color: $clr-red-500; }
+
+.fw-bold { font-weight: $fw-700; }
+.fw-black { font-weight: $fw-900; }
+
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width:1px;
+}
+
+
+
+// simple reset
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+  // base styles
+body {
+    font-weight: $fw-400;
+    font-family: $ff-roboto;
+    color: $clr-neutral-900;
+    background-color: $clr-neutral-100;
+    @extend %text-center;
+    letter-spacing: 0em;
+
+}
+
+.container {
+    max-width: min(58rem, 100% - 2rem);
+    margin-inline: auto;
+}
