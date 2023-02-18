@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_chat_bubble_outline</title>
+    <defs>
+        <path d="M5.33333333,8.66666667 L5.33333333,8 L0.673333333,8 L0.666666667,10.6666667 C0.666666667,11.4066667 1.26,12 2,12 L11.3333333,12 C12.0733333,12 12.6666667,11.4066667 12.6666667,10.6666667 L12.6666667,8 L8,8 L8,8.66666667 L5.33333333,8.66666667 L5.33333333,8.66666667 Z M12,2.66666667 L9.32666667,2.66666667 L9.32666667,1.33333333 L7.99333333,0 L5.32666667,0 L3.99333333,1.33333333 L3.99333333,2.66666667 L1.33333333,2.66666667 C0.6,2.66666667 2.22044605e-16,3.26666667 2.22044605e-16,4 L2.22044605e-16,6 C2.22044605e-16,6.74 0.593333333,7.33333333 1.33333333,7.33333333 L5.33333333,7.33333333 L5.33333333,6 L8,6 L8,7.33333333 L12,7.33333333 C12.7333333,7.33333333 13.3333333,6.73333333 13.3333333,6 L13.3333333,4 C13.3333333,3.26666667 12.7333333,2.66666667 12,2.66666667 L12,2.66666667 Z M8,2.66666667 L5.33333333,2.66666667 L5.33333333,1.33333333 L8,1.33333333 L8,2.66666667 L8,2.66666667 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="33.3333333" height="33.3333333"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="section-/-left" transform="translate(-38.000000, -163.000000)">
+            <g transform="translate(0.000000, -72.691919)" id="Group-8">
+                <g transform="translate(33.000000, 95.345960)">
+                    <g id="contact-details" transform="translate(4.000000, 108.000000)">
+                        <g id="ic_chat_bubble_outline" transform="translate(1.333333, 33.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="🎨-Color" mask="url(#mask-2)">
+                                <g transform="translate(-10.000000, -10.666667)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Black" stroke="none" fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
